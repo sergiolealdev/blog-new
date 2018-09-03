@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { ArticleComponent } from './article/article.component';
 import { ArticleTestComponent } from './article-test/article-test.component';
+import { NgxGistModule } from 'ngx-gist/dist/ngx-gist.module';
 
 @NgModule({
   declarations: [
@@ -15,10 +16,12 @@ import { ArticleTestComponent } from './article-test/article-test.component';
     FooterComponent,
     BodyComponent,
     ArticleComponent,
-    ArticleTestComponent
+    ArticleTestComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxGistModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

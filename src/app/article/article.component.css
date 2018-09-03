@@ -1,6 +1,8 @@
-/*! CSS Used from: https://cdn1.howtodoinjava.com/wp-content/cache/autoptimize/css/autoptimize_acf230dc2dfb65215843eb48d6c3f24b.css ; media=all */
 @media all {
 
+  h1, h2, h3, h4, h5, h6{
+    margin-top:20px;
+  }
   .noticeboxesde {
     clear: both;
     position: relative;
